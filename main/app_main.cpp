@@ -98,9 +98,9 @@ static void mqtt_app_start(void)
     //     .uri = CONFIG_BROKER_URL,
     // };
 
-    std::string juri    = "myURI";          //change with Credentials
-    std::string juser   = "myUSERNAME";     //change with Credentials
-    std::string jpass   = "myPASSWORD";     //change with Credentials
+    std::string juri    = "myURI";          //change this with your Credentials
+    std::string juser   = "myUSERNAME";     //change this with your Credentials
+    std::string jpass   = "myPASSWORD";     //change this with your Credentials
 
     esp_mqtt_client_config_t mqtt_cfg;
     mqtt_cfg.uri        = juri  .c_str();
